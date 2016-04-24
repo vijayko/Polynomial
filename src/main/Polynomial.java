@@ -11,6 +11,9 @@ import java.lang.*;
  *
  */
 public class Polynomial{
+	/**
+	 * These are two fields for this class.
+	 */
 	private Term terms;
 	private ArrayList<Term> list;
 	
@@ -26,8 +29,8 @@ public class Polynomial{
 	 * This is the "Insert" method. 
 	 * It takes two parameters, the coefficient and the exponent for the terms of a polynomial. 
 	 * It takes those two parameters of a term, creates a term and insert those terms in an ascending order of exponent. 
-	 * @param X
-	 * @param Y
+	 * @param X = Coefficient
+	 * @param Y = Exponent
 	 */
 	public void Insert(int X, int Y){
 		if(Y < 0){
@@ -139,7 +142,7 @@ public class Polynomial{
 	/**
 	 * This is Reverse method. It reverses the ascending ordered polynomial to descending order. 
 	 * It has a String return type.
-	 * @return
+	 * @return Reverse_polynomial
 	 */
 	public String Reverse(){
 		int list_size = list.size();
