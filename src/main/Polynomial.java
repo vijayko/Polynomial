@@ -157,6 +157,7 @@ public class Polynomial{
 			index++;
 		}
 		value = it.next()+ " " + value;
+		
 		if(value.charAt(0) == '-'){
 			return value;
 		}
